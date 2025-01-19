@@ -1,0 +1,26 @@
+{
+  "name": "next-js-app",
+  "type": "module",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node env-fetch.js && next dev",
+    "prebuild": "node env-fetch.js",
+    "build": "node env-fetch.js && next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "next": "15.1.1-canary.1",
+    "react": "19.0.0",
+    "react-dom": "19.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "22.10.7",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "turbo": "2.1.0",
+    "typescript": "5.6.3"
+  },
+  "packageManager": "pnpm@10.0.0-rc.3+sha512.5be0426818bc14eedfa404e2d64e10acdb5073c72dd5b78eb0b7d16ad743e817ceda0cb9309a05137da2eda405f3423899fd89217ff2d7f50c79758176cef6cc",
+  "prettier": {}
+}
