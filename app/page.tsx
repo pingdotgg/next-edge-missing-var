@@ -1,3 +1,5 @@
+import { MY_VAR } from "../env";
+
 export default function Home() {
-  return <div>Hello World</div>;
+  return <div>Hello, {MY_VAR}</div>;
 }
